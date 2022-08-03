@@ -1,0 +1,122 @@
+body{
+    
+    font-size: 26px;
+    /* font family: */
+
+
+}
+
+
+header {
+display: flex;
+    background-color: #fff;
+    width: 100%;
+    /* height: 70px; */
+    position: sticky;
+    z-index: 5;
+    top: 0;
+    padding: 20px 0;
+    transition: all 0.2s ease-in-out;
+}
+.logo{
+    margin-top: -19px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap
+}
+.logo img {
+    
+    max-height: 100%;
+    margin-left:16px;
+} 
+header nav {
+    height: 100%;
+    margin-right: 8%;
+    transition: all 0.2s ease-in-out;
+}
+header nav ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    list-style-type: none;
+    font-family: arial,Helvetica, sans-serif;
+    font-size: 17px;
+}
+h1{
+    font: 84px "volkhov-bold";
+    color:white;
+
+}
+
+h4{
+    font-family: 20px "poppins-bold";
+    color: #df6951;
+}
+    .carte{
+display: flex;
+    }
+.new_carte{
+    display:inline-block;
+color: #df6951;
+}
+.menu{
+    border: 5px solid;
+    
+  
+    border-radius: 10px;
+    box-shadow: 5% ;
+}
+figure{
+    
+  
+    border-radius: 18px;
+    box-shadow: 0px 4px 47px 24px rgb(0 0 0 / 7%);
+}
+figcaption{
+
+    font-size:16px
+}
+.transport{
+    display:flex;
+}
+/* h5{
+
+    font-family: "poppins-regular";
+    font-size: 30px;
+    color: #bfc0cd;
+} */
+/* .boutton{
+    width: 16%;
+height: 58%;
+} */
+button{
+    background: yellow;
+   
+}
+.bouton_découvrir{
+    font: 18px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    padding: 18px 32px;
+    border: none;
+
+}
+.section1{
+
+    background: url("../images/illustration_principale.jpg") no-repeat;
+    background-size: cover;
+}
+.section2{
+    background: url("../images/illustration_chef.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+li{
+   align-content: space-between;
+}
